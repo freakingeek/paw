@@ -1,0 +1,14 @@
+{
+  "name": "paw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "paw",
+    "ssr",
+    "sessionStorage"
+  ],
+  "author": "Yasin Silavi",
+  "license": "MIT"
+}
