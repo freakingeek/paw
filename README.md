@@ -17,7 +17,7 @@ $ npm install paw-storage
 To use Paw, you can import the `PawStorage` class and create an instance of it:
 
 ```TypeScript
-import PawStorage from 'paw-storage';
+import PawStorage from "paw-storage";
 
 const paw = new PawStorage();
 ```
@@ -28,7 +28,7 @@ const paw = new PawStorage();
 To store a value in the session storage, use the `set` method:
 
 ```TypeScript
-paw.set('message', '✨ Soft, like a kitten's paw!')
+paw.set("message", "✨ Soft, like a kitten's paw!")
 ```
 
 The value can be of any type, including strings, numbers, objects, or arrays.
@@ -39,7 +39,7 @@ The value can be of any type, including strings, numbers, objects, or arrays.
 To retrieve a value from the session storage, use the `get` method:
 
 ```TypeScript
-const message = paw.get('message'); // ✨ Soft, like a kitten's paw!
+const message = paw.get("message"); // ✨ Soft, like a kitten's paw!
 ```
 
 The `get` method returns the value associated with the specified key. If the key is not found, it returns `null`.
