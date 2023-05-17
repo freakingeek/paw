@@ -1,7 +1,7 @@
 {
   "name": "paw",
   "version": "1.0.1",
-  "description": "",
+  "description": "🐾 Paw is a lightweight wrapper for the sessionStorage API",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
