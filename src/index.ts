@@ -1,6 +1,6 @@
 class PawStorage {
   [property: string]: any;
-  private isOnServer = typeof window === "undefined";
+  private readonly isOnServer = typeof window === "undefined";
 
   /**
    * Parses the value from a string to the specified type.
